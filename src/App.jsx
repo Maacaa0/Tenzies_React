@@ -120,7 +120,7 @@ function App() {
     { tenzies && <Confetti /> }
         <h1>Tenzies</h1>
         {!gameStarted && <img className='die_logo' src="/assets/images/dice.png" alt="" />}
-        <p>Roll until all dice are the same. Click each die to freeze it at its current value between rolls.</p>
+        <p className="game_info">Roll until all dice are the same. Click each die to freeze it at its current value between rolls.</p>
         
         {gameStarted ? (
           <div>

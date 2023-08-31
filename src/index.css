@@ -9,7 +9,8 @@ body {
   display: flex;
   justify-content: center;
   margin-top: 2rem;
-  background: #0B2434;
+  /* background: #0B2434; */
+  background: #2cadff;
   overflow-x: hidden;
 
   font-family: "Kanit", sans-serif;
@@ -17,6 +18,13 @@ body {
 
 h1 {
   margin-bottom: 1rem;
+  color: #2cadff;
+  text-shadow: 2px 3px black;
+}
+
+.game_info {
+  max-width: 24rem;
+  margin-top: 2rem;
 }
 
 .die_logo {
@@ -34,6 +42,7 @@ main {
   text-align: center;
   margin: auto 2rem;
   border-radius: 1rem;
+  border: 5px solid black;
 }
 
 .dice_container {
